@@ -1,0 +1,14 @@
+/* start getstart section */
+.bodyindex{
+    background-color: rgb(241, 240, 240);
+}
+/* end getstart section */
+#errorMass{
+    text-align: center;
+    color: white;
+    padding:10px 0px ;
+    margin-bottom: 10px;
+    transition: all .2s linear;
+    border-radius: 10px;
+}
+

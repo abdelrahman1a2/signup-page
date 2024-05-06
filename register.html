@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>logein</title>
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body class="bodyindex">
+    
+    <!-- start sign up section -->
+    <div class="media mt-5">
+        <div class="container mt-5">
+            <div class="row">
+            <div class="col-md-6">
+                <img src="img/3123i2lmPiL._AC_SY780_.jpg"class="rounded" alt="">
+            </div>
+            <div class="col-md-6 ">
+                <h1>Create Account</h1>
+                <h5 class="text-muted my-4">Go ahead and sign up,let everyone<br>know how awesome you are!</h5>
+                <div id="errorMass"></div>
+                <form action="create.html" onsubmit="return signupFun()" >
+                    <input type="text" id="name" placeholder="UserName" class="form-control mb-3 p-4">
+                    <input type="text" id="email" placeholder="E-Mail" class="form-control mb-3 p-4">
+                    <input type="password" id="pass" placeholder="Password" class="form-control mb-3 p-4">
+                    <input type="password" id="confirmpass" placeholder="Confirm Password" class="form-control mb-3 p-4">
+                    <input type="submit" id="submit" value="Creat New Account" class="btn btn-primary btn-block p-2">
+                </form>
+            </div>
+        </div>
+        </div>
+    </div>
+<!-- end sign up section -->
+    <script src="js/all.min.js"></script>
+    <script src="js/jquery.slim.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
